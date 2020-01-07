@@ -9,5 +9,6 @@ console.log(solution(['abce', 'abcd', 'cdx'], 2));
 /*
   https://programmers.co.kr/learn/courses/30/lessons/12915
   문자열 내맘대로 정렬하기
+  풀이를 보면서 하였습니다.
   이 문제는 풀면서 localeCompare를 알게되어 활용하게 되었습니다.
  */
