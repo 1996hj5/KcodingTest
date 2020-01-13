@@ -4,13 +4,11 @@ function solution(s) {
     s[i] === '(' ? count++ : count--;
     if(count < 0) return false;
   }
-  if(count !== 0) return false;
-  return true;
+  return count !== 0 ? false : true;
 }
 
 console.log(solution("(())()"));
 console.log(solution("(())())"));
-
 /*
   https://programmers.co.kr/learn/courses/30/lessons/12909
   올바른 괄호
